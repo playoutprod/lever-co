@@ -1,0 +1,115 @@
+.lever_co .divider{
+  display: inline-block;
+  width:1.5em;
+}
+.lever_co .sub-divider:before{
+  display:inline-block;
+  content:"-";
+  padding: 0 .5em;
+}
+.lever_co .filters{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2em 0;
+}
+.et_mobile_device .lever_co .filters{
+  flex-direction: column;
+  align-items: center;
+}
+.lever_co .filters>span{
+  min-width: 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lever_co .filters ul{
+  padding:0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.lever_co .filters.search ul{
+  margin-right: 1em;
+}
+.et_mobile_device .lever_co .filters ul{
+  flex-direction: column;
+  align-items: center;
+}
+.lever_co .filters ul li{
+  list-style: none;
+  padding: 0 1em;
+  min-width: 25%;
+}
+.et_mobile_device .lever_co .filters ul li{
+  width:100%;
+  max-width: 600px;
+}
+body:not(.et_mobile_device) .lever_co .filters ul li:first-child{
+  padding-left: 0;
+}
+body:not(.et_mobile_device) .lever_co .filters ul li:last-child{
+  padding-right: 0;
+}
+.lever_co .filters ul li p{
+  padding: 0;
+  margin: 0;
+}
+.et_mobile_device .lever_co .filters ul li p{
+  margin-bottom: .5em;
+}
+.lever_co .department{
+  padding: 2em 0;
+}
+.lever_co.teams .department h2{
+  font-size: 3em;
+  color:#000;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+.et_mobile_device .lever_co.teams .department h2{
+  font-size: 2em;
+}
+.lever_co.teams .team h3{
+  font-size: 2em;
+  color:#666666;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+.et_mobile_device .lever_co.teams .team h3{
+  font-size: 1.5em;
+}
+.lever_co.teams article{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.et_mobile_device .lever_co.teams article{
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lever_co.job h1{
+  font-size: 3em;
+  padding: .5em 0 .2em;
+}
+.lever_co .et_pb_title_container{
+  margin-bottom: 2em;
+}
+.lever_co.job .list{
+  margin-top: 2em;
+}
+.lever_co.job .et_pb_post_content{
+  margin-bottom: 4em;
+}
+.lever_co.job{
+  margin-bottom: 4em;
+}
+.lever_co.job .back_button{
+  margin-top: 1em;
+}
+.lever_co .filters.search .et_pb_button_module_wrapper{
+  flex:1;
+}
